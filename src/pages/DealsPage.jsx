@@ -16,8 +16,8 @@ const MOCK_ACCOUNTS = [
 ];
 
 const MOCK_DEALS = [
-  { id: '101', title: 'Licencias Enterprise', accountId: '1', amount: 120000, stage: 'PROSPECCION' },
-  { id: '102', title: 'Consultoría Cloud', accountId: '2', amount: 45000, stage: 'PROPUESTA' },
+  { id: '101', title: 'Licencias Enterprise', accountId: '1', amount: 120000, stage: 'PROSPECCION', probability: 20, account: { name: 'Acme Corp' } },
+  { id: '102', title: 'Consultoría Cloud', accountId: '2', amount: 45000, stage: 'PROPUESTA', probability: 60, account: { name: 'Tech Solutions' } },
 ];
 
 export default function DealsPage() {
